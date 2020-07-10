@@ -76,6 +76,11 @@
         };
 
     };
+    
+    
+    var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings'
+  });
 
     function mouseParallax(id, left, top, mouseX, mouseY, speed) {
         var obj = document.getElementById(id);
